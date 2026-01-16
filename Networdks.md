@@ -73,4 +73,14 @@
     | 2 × 8² | 2 × 64 (8² = 64)  | 128           |
     * `7 + 24 + 128 = 159`
 
-  
+* Omzetten `Decimalen naar octalen`
+  - Hier gaan wij delen door 8 ipv 16,
+    
+    bv getal `83`
+    | Cijfer | Uitkomst |     Rest    |
+    |--------|----------|-------------|
+    | 83/8   | 10       | 3           |
+    | 10/8   | 1        | 2           | 
+    | 1/8    | 0        | Rest word 1 |
+
+    
