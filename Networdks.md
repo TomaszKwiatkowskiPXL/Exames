@@ -82,5 +82,5 @@
     | 83/8   | 10       | 3           |
     | 10/8   | 1        | 2           | 
     | 1/8    | 0        | Rest word 1 |
-
-    
+     Van onder naar boven antw = `123`
+  *
