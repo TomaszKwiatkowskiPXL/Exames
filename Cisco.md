@@ -164,4 +164,9 @@ Switch(config-if)#
 | Laptop 0 | 192.168.1.150 |
 | PC4 | 192.168.1.151 |
 |Server 0 | 192.168.1.152 |
-| Access | 192.168.1.153 |
+
+### Security
+
+* Router cli *
+
+
