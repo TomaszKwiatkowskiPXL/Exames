@@ -55,11 +55,12 @@ LAN -> Building Local Network infrastructure
 WAN -> Outside router Networks
 
 
-| <img src="https://github.com/TomaszKwiatkowskiPXL/Exames/blob/768ef1114200b3d0b5c7369ce54f18d03f53d091/The%20internet.png" width=500px> |
+  | <img src="https://github.com/TomaszKwiatkowskiPXL/Exames/blob/768ef1114200b3d0b5c7369ce54f18d03f53d091/The%20internet.png" width=300px> |
 
 ## Network possability's
 
-| <img src="https://github.com/TomaszKwiatkowskiPXL/Exames/blob/00e98ba2cbf196ce3c40de6c4c3b67dece7f4dcf/idk.png"> |
+  | <img src="https://github.com/TomaszKwiatkowskiPXL/Exames/blob/00e98ba2cbf196ce3c40de6c4c3b67dece7f4dcf/idk.png" width=300px> |
+
 
 ## Fault tolerance
 
@@ -75,12 +76,35 @@ There are several networking trends that affect organizations and consumers:
    - Bring Your Own Device (BYOD)
    - Online collaboration
    - Video communications
-   - Cloud Computing
+
+# Cloud Computing
+ | <img src="https://github.com/TomaszKwiatkowskiPXL/Exames/blob/c18f787d2ed82713ad4618a6d3badd355d6fa636/Cloud%20computing.png" width=500px> |
+
+# Powerline Networking
+- Send data trough frequentie bv TP Link extenders for network
+- 1 Ethernet input, multiple hubs that search inputs connection.
 
 
-| <img src=""> |
+# Security
+
+  - Viruses, worms, and Trojan horses - These contain malicious software or code running on a user device.
+  - Spyware and adware - These are types of software which are installed on a user’s device. The software then secretly collects information about the user.
+  - Zero-day attacks - Also called zero-hour attacks, these occur on the first day that a vulnerability becomes known.
+  - Threat actor attacks - A malicious person attacks user devices or network resources.
+  - Denial of service attacks - These attacks slow or crash applications and processes on a network device.
+  - Data interception and theft - This attack captures private information from an organization’s network.
+  - Identity theft - This attack steals the login credentials of a user in order to access private data.
 
 
+1.8.2 Security Solutions
+
+  - Antivirus and antispyware - These applications help to protect end devices from becoming infected with malicious software.
+  - Firewall filtering - Firewall filtering blocks unauthorized access into and out of the network. This may include a host-based firewall system that prevents        unauthorized access to the end device, or a basic filtering service on the home router to prevent unauthorized access from the outside world into the network.
+
+  - Dedicated firewall systems - These provide more advanced firewall capabilities that can filter large amounts of traffic with more granularity.
+  - Access control lists (ACL) - These further filter access and traffic forwarding based on IP addresses and applications.
+  - Intrusion prevention systems (IPS) - These identify fast-spreading threats, such as zero-day or zero-hour attacks.
+  - Virtual private networks (VPN) - These provide secure access into an organization for remote workers.
 
 
 
