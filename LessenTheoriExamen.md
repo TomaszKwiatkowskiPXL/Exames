@@ -77,7 +77,7 @@ There are several networking trends that affect organizations and consumers:
    - Online collaboration
    - Video communications
 
-# Cloud Computing
+## Cloud Computing
  | <img src="https://github.com/TomaszKwiatkowskiPXL/Exames/blob/c18f787d2ed82713ad4618a6d3badd355d6fa636/Cloud%20computing.png" width=500px> |
 
 # Powerline Networking
@@ -85,7 +85,7 @@ There are several networking trends that affect organizations and consumers:
 - 1 Ethernet input, multiple hubs that search inputs connection.
 
 
-# Security
+## Security
 
   - Viruses, worms, and Trojan horses - These contain malicious software or code running on a user device.
   - Spyware and adware - These are types of software which are installed on a user’s device. The software then secretly collects information about the user.
@@ -108,6 +108,35 @@ There are several networking trends that affect organizations and consumers:
 
 
 
+CCNA is an certification 
 
+# Theman 2
+
+OS: Operating systems
+- Shell -> what users see
+- translate input for hardware
+- Hardware -> GPU,CPU,RAM ect
+
+
+GUI -> OS:UI ex Ubuntu/Windows Destkop.
+CLI -> Ex Ubuntu server command prompt
+
+## Deivce external acces is possible trough
+- .SSH
+- Console
+- Telnet
+
+Example programs
+- puTTY
+- Tera term
+- Secure CRT
+
+Extra's
+U can acces devices trough Telephone connection using AUX apparently.
+
+## IOS Command stucture
+
+ | <img src="https://github.com/TomaszKwiatkowskiPXL/Exames/blob/997ef73031ffa67c4fd080596cf242e05f709ae8/InterstingPNG.png" width=500px> |
+ 
 
 
