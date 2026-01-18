@@ -57,6 +57,30 @@ WAN -> Outside router Networks
 
 | <img src="https://github.com/TomaszKwiatkowskiPXL/Exames/blob/768ef1114200b3d0b5c7369ce54f18d03f53d091/The%20internet.png" width=500px> |
 
+## Network possability's
+
+| <img src="https://github.com/TomaszKwiatkowskiPXL/Exames/blob/00e98ba2cbf196ce3c40de6c4c3b67dece7f4dcf/idk.png"> |
+
+## Fault tolerance
+
+Some company's own multiple router wich are connectted in parralel to prevent the network from colapsing
+incase of an router making an error, the other routers use wil take over the job of the defect router.
+Also the left over space might be used for an temponary network ex an extra room makes use of safety reserved networks for an event where
+more IT has to function.
+
+
+### As new technologies and end-user devices come to market, businesses and consumers must continue to adjust to this ever-changing environment.
+There are several networking trends that affect organizations and consumers:
+
+   - Bring Your Own Device (BYOD)
+   - Online collaboration
+   - Video communications
+   - Cloud Computing
+
+
+| <img src=""> |
+
+
 
 
 
