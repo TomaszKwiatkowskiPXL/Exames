@@ -139,4 +139,14 @@ U can acces devices trough Telephone connection using AUX apparently.
  | <img src="https://github.com/TomaszKwiatkowskiPXL/Exames/blob/997ef73031ffa67c4fd080596cf242e05f709ae8/InterstingPNG.png" width=500px> |
  
 
+## Cisco 
+- User access = password Wachtw**rd
+- Privilegde access = enable secret Wachtw**rd
+- VTY 0 15 = ssh, telnet acces  RouterSwitch-CLI(config-Line)# password wachtw**rd
+** Encryption **
+- (config)#service password encryption
+- #show running-config
+
+
+
 
