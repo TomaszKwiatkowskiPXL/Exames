@@ -146,7 +146,16 @@ U can acces devices trough Telephone connection using AUX apparently.
 ** Encryption **
 - (config)#service password encryption
 - #show running-config
+** Others **
+- # Banner motd #Authorized acces only -> Must have otherwise you might be sued because you haven't informed user
+that he's not allowed to configure the device in case you work with ` fucking retarded idiots `.
+- #ip default-gateway 192.168.1.1
 
+# Thema 3 
+- Unicast enkele target
+- Multicast meerdere targets
+- Broadcast = all
+- 
 
 
 
