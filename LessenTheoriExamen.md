@@ -155,7 +155,17 @@ that he's not allowed to configure the device in case you work with ` fucking re
 - Unicast enkele target
 - Multicast meerdere targets
 - Broadcast = all
-- 
+
+
+|  |  |
+|--|--|
+| Network communication protocols | Transmition Control Protocol TCP,Hyper TextT transfer Protocol HTTP |
+| Netwrok security protocols | Secure socket Layer SSL, Transport Layer securuty TLS, Secure shell SSH |
+| Routing protocols | open shortest Path First OSPF |
+| Service discovery protocols | DHCP Dynamic Host Configuration protocol, DNS domain name system.  |
+
+
+| <img src="https://github.com/TomaszKwiatkowskiPXL/Exames/blob/6b569059c73270f504a50291a37a4046f9c6545d/iets.png" width=500px> |
 
 
 
