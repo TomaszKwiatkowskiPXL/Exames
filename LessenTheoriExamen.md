@@ -168,4 +168,58 @@ that he's not allowed to configure the device in case you work with ` fucking re
 | <img src="https://github.com/TomaszKwiatkowskiPXL/Exames/blob/6b569059c73270f504a50291a37a4046f9c6545d/iets.png" width=500px> |
 
 
+# Protocol Layers
+*** Aplication layer ***
+
+- DNS - Domain name
+- DHCP Domain host configuration protocol
+- SLAAC Statelles address auto configuration(Doesn't use dhcp)
+
+*** Email ***
+- SMTP Simple mail transfer protocol
+- Imap interne messange acces protocol
+- POP3 post office protocol version 3
+
+*** File transfer ***
+- FTP File transfer protocol 
+- SFTP ssh file transfer protocol
+- TFTP Trival file transfer protocol
+
+
+*** Web ***
+- HTTP Hypertext transfer protocol
+- HTTPS Hypertext transfer protocol secure
+- REST representional state transfer
+
+
+*** Internet Layer ***
+- IPv4/6 internet version protocol 4/6
+- Nat Network address translation
+
+*** Messanging ***
+- ICMPv4 Internet control Messange protocol for ipv4
+- ICMPv4 Internet control Messange protocol for ipv6
+- ICMPv6 ND - ICMPv6 Neighbor Discovery. Includes four protocol messages that are used 
+for address resolution and duplicate address detection.
+
+*** Routing protocols ***
+- OSPF Open shortest path  first
+- EIGRP Enchanced interior gateway routing protocol
+- BGP Border gateway protocol
+
+*** Network Acces Layer ***
+- ARP Address resolution protocol.
+
+
+*** Datalink protocole  ***
+- Ethernet
+- WLAN
+
+
+
+
+
+
+
+
 
