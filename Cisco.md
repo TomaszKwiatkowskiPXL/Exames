@@ -1,4 +1,4 @@
-# Cisco packet tracer
+k# Cisco packet tracer
 
 ## Opbouwen eigen Netwerk opstelling
 
@@ -170,3 +170,38 @@ Switch(config-if)#
 * Router cli *
 
 
+
+# andere
+Floor(config)# interface gi0/1
+
+Floor(config-if)# description Connects to the Registrar LAN
+
+Floor(config-if)# ip address 192.168.235.234 255.255.255.0
+
+Floor(config-if)# no shutdown
+
+Floor(config-if)# interface gi0/0
+
+Floor(config-if)# description Connects to the Manager LAN
+
+Floor(config-if)# ip address 192.168.234.114 255.255.255.0
+
+Floor(config-if)# no shutdown
+
+Floor(config-if)# interface s0/0/0
+
+Floor(config-if)# description Connects to the ISP
+
+Floor(config-if)# ip address 10.234.235.254 255.255.255.0
+
+Floor(config-if)# no shutdown
+
+Floor(config-if)# interface s0/0/1
+
+Floor(config-if)# description Connects to the Head Office WAN
+
+Floor(config-if)# ip address 203.0.113.3 255.255.255.0
+
+Floor(config-if)# no shutdown
+
+Floor(config-if)# end
