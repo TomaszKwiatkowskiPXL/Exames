@@ -1,0 +1,194 @@
+________________________________ Cruising arround the OS
+mkdir -p (de -p zorgt dat de OS niet zaagt als de mak all bestaat)
+
+if you don't know the folders between a file you can
+use ../../root/.bashcr
+
+
+
+Aplicaties!!!!
+________________________________ UBUNTU PACKAGE
+
+sudo apt update -> systen
+sudo apt upgrade -> pakketen
+
+Zoeken naar pakketen kun je met
+$ apt search "usage and stats"
+
+To remove we use:
+$ sudo apt remove aplication.exe for example
+
+Wat zich all op de systeem bevind?
+$apt list --installed
+________________________________ SNAP
+Zoeke in snap store
+$ snap seacrch "Aplication"
+
+Lijst geinstalleerde snaps
+$ snap list
+
+Snaps verwijderen
+$ sudo snap remove Aplicaties.exe
+
+Snap veranderingen
+$ snap changes
+
+Info opzoeken van snap aplicaties.
+$ snap info Aplication
+
+___________________________________Gzip/Unzip
+
+Installeerd 2 aplicaties zip & unzip
+$ sudo apt install zip unzip
+
+zip werkt zo :
+$ zip MijnZipBestand.zip bestand0 bestand1 bestand2
+unzip werkt
+$ unzip MijnZipBestand.zip
+    :extracting bestand0
+    :extracting bestand1
+    :extracting bestand2
+______________________________________________ .tar
+Tar doet het zelfde maar hij comprimeert de bestanden niet ipv dat doet
+hij ze samen voegen.
+______________________________________________
+
+cat = lezen bestand boven naar onder  tac = onder naar boven
+
+head toont eerste regel, je kunt ook gebruik maken
+van -nummer om de aantal te bepalen die je wilt zien
+
+ex $ head -2 /test/file1
+#Hello
+#Here you can find stuff you need to know basics for linux.
+
+tail doet precies het zelfde maar van achterste voren.
+
+Less laat laatste zinnen zien van een bestand.
+
+
+Dit is waar het interessant wordt. We kunnen een >-teken gebruiken om de shell te vertellen de uitvoer van het vorige commado te nemen en deze naar een bestand te schrijven in plaats van naar het scherm:
+
+student@linux-ess:~$ echo hello world > demofile
+
+Standaard wordt een file overschreven bij het gebruik van het >-teken. Als je aan een bestand wilt toevoegen in plaats van het te overschrijven, kan je dit doen met >>
+
+student@linux-ess:~$ cat demofile
+hello world
+student@linux-ess:~$ echo hello everyone >> demofile
+student@linux-ess:~$ cat demofile
+hello world
+hello everyone
+
+Wetende wat we hebben geleerd over het gebruik van output redirection (>) kunnen we dit als volgt gebruiken om de inhoud van een bestand naar een ander bestand te kopiëren:
+
+student@linux-ess:~$ cat jokes.txt > jokes2.0.txt
+student@linux-ess:~$ cat jokes2.0.txt
+What is a Linux user's favorite game?
+sudo ku
+
+______________________________________________ Globbing
+
+start met * is eindigd eind met * is beggin, heeft er 2 * = bevat het woord
+
+Een alias werk op de manier dat deze iets extra can toevoegen tot een commando
+bv $ alias mkdir="touch readme.txt" = dit maak een lege read me bestand.
+
+Je kunt een alias verwijderen door gebruik te maken van
+$ unalias mkdir
+
+(Folders verwijderen doen we met rmdir)
+
+We kunnen bestanden op een interessant manier bewerken bv een regel toevoegen. Hier is een prompt
+die het uitlegd.
+
+[me@LNUX TestFolder]$ echo "Hallo u" > test.txt
+[me@LNUX TestFolder]$ cat test.txt
+Hallo u
+[me@LNUX TestFolder]$
+
+(Werkte niet in ubuntu wel in arch plasma terminal idk wrm)
+
+______________________________________________
+
+Stream redirection snap ik niet
+
+______________________________________________ Control operators & Logic operators
+Control Operator:
+
+Het is mogelijk om een aantal commandos op de zelfde regel uit te voeren voor ex:
+$ echo Hello; echo Pizza met annanas is haram; echo doei.
+
+Logic Operator:
+
+Een logishe Operator is eigenlijk een AND command dus je voert het uit met &&, ex:
+
+[me@LNUX TestFolder]$ echo 1 && echo 2 && echo 3
+1
+2
+3
+
+We hebben ook de OR deze => ||
+ex:
+
+[me@LNUX TestFolder]$ echo 1 || echo 2 || echo 3
+1
+[me@LNUX TestFolder]$
+
+We kunnen ook een bestand zoeken die eindigd met 1
+
+[me@LNUX TestFolder]$ ls *1
+bestand1
+[me@LNUX TestFolder]$
+
+________________________________
+We kunnen ook meerdere bestanen aan maken :
+
+Maken:
+touch script.{sd,dh,ds} script2.{dh,ds,dd} script3.{ss,ds}
+touch bestand{1..10}
+
+verwijderen:
+of rm bestand{1..10}
+rm script.{sd,dh,ds} script2.{dh,ds,dd} script3.{ss,ds}
+
+om folders te tonen die bv op sh eindigen kun je
+
+[me@LNUX TestFolder]$ ls  *sh*
+script.sh
+[me@LNUX TestFolder]$
+
+
+Om bestanden te zoeken die bv met 2 nummers eindigen kun je
+
+    $ ls /etc/grub.d/*[0-9][0-9]
+
+of als ze er mee begginen
+
+  $ ls /etc/grub.d/[0-9][0-9]*
+
+
+Toon een lijst van alle bestanden die niet beginnen met een nummer uit de map "/etc/grub.d"
+
+ls /etc/grub.d/[^0-9]*
+
+________________________________Dat ga ik vergeten
+
+Eenmaal getest, zorg ervoor dat je alias in de toekomst wordt onthouden (na opnieuw opstarten, enz.)
+
+echo 'alias cat="lolcat"' >> ~/.bash_aliases
+source ~/.bashrc    # of: exec bash
+
+
+________________________________
+alias c="clear" => handig
+memory -> toont geheugen
+________________________________
+
+Maak een nieuw bestand met de naam "userinfo" in je homefolder. Doe dit door de uitvoer van het echo-commando van de variabele $USER om te leiden naar dit bestand
+
+echo "$USER" > ~/userinfo
+
+Beindigd THEMA 7 ->THEORI
+
+
